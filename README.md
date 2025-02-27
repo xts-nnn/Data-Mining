@@ -72,7 +72,52 @@ Association digunakan untuk menemukan hubungan antara item dalam dataset.
 
 ---
 
-## 5. Jenis Pembelajaran dalam Data Mining
+## 3. Kapan Teknik/Method Digunakan
+Berikut adalah metode utama dalam data mining, kapan metode tersebut digunakan, dan jenis pembelajaran yang digunakan.
+
+### a. Estimasi (Estimation)
+- **Kapan digunakan?**
+  - Saat ingin memperkirakan nilai numerik suatu variabel berdasarkan data yang tersedia.
+  - Contoh:
+    - Memprediksi pendapatan seseorang berdasarkan usia dan pendidikan.
+    - Menentukan biaya asuransi berdasarkan riwayat medis.
+- **Jenis Pembelajaran:** Supervised Learning (karena membutuhkan data historis dengan label).
+
+### b. Forecasting (Peramalan)
+- **Kapan digunakan?**
+  - Saat ingin memprediksi nilai atau tren di masa depan berdasarkan pola dalam data historis.
+  - Contoh:
+    - Meramalkan harga saham dalam beberapa bulan ke depan.
+    - Memprediksi jumlah pengunjung restoran berdasarkan musim.
+- **Jenis Pembelajaran:** Supervised Learning (karena membutuhkan data historis dengan label).
+
+### c. Clustering (Pengelompokan)
+- **Kapan digunakan?**
+  - Saat ingin mengelompokkan data ke dalam beberapa kategori tanpa label tertentu.
+  - Contoh:
+    - Segmentasi pelanggan berdasarkan kebiasaan belanja.
+    - Pengelompokan gambar berdasarkan fitur visual dalam aplikasi pengenalan gambar.
+- **Jenis Pembelajaran:** Unsupervised Learning (karena model mencari pola sendiri tanpa label).
+
+### d. Classification (Klasifikasi)
+- **Kapan digunakan?**
+  - Saat ingin mengategorikan data baru ke dalam kelas berdasarkan pola dalam data yang sudah diberi label.
+  - Contoh:
+    - Mendeteksi apakah email adalah spam atau bukan.
+    - Memprediksi apakah seseorang akan membayar kredit tepat waktu atau tidak.
+- **Jenis Pembelajaran:** Supervised Learning (karena memerlukan data pelatihan dengan label).
+
+### e. Association (Asosiasi)
+- **Kapan digunakan?**
+  - Saat ingin menemukan hubungan antar item dalam dataset.
+  - Contoh:
+    - Market Basket Analysis (pelanggan yang membeli susu cenderung membeli roti).
+    - Rekomendasi produk di e-commerce berdasarkan pola pembelian pelanggan.
+- **Jenis Pembelajaran:** Unsupervised Learning (karena tidak memerlukan label yang sudah ditentukan sebelumnya).
+
+---
+
+## 6. Jenis Pembelajaran dalam Data Mining
 
 ### a. Supervised Learning (Pembelajaran Terawasi)
 - Model dilatih menggunakan data yang sudah memiliki label.
@@ -84,7 +129,7 @@ Association digunakan untuk menemukan hubungan antara item dalam dataset.
 
 ---
 
-## 6. Penerapan Data Mining dalam Berbagai Bidang
+## 7. Penerapan Data Mining dalam Berbagai Bidang
 
 | **Bidang** | **Penerapan Data Mining** |
 |------------|--------------------------|
@@ -97,7 +142,7 @@ Association digunakan untuk menemukan hubungan antara item dalam dataset.
 
 ---
 
-## 7. Tantangan dalam Data Mining
+## 8. Tantangan dalam Data Mining
 1. **Kualitas Data yang Buruk** → Data sering tidak lengkap atau mengandung kesalahan.
 2. **Volume Data yang Besar** → Memerlukan teknik big data untuk pengolahan yang efisien.
 3. **Keamanan dan Privasi** → Perlindungan data pengguna menjadi tantangan utama.
@@ -105,5 +150,5 @@ Association digunakan untuk menemukan hubungan antara item dalam dataset.
 
 ---
 
-## 8. Kesimpulan
+## 9. Kesimpulan
 Data mining adalah teknik yang sangat penting dalam dunia modern untuk mengekstrak wawasan dari data besar. Dengan menggunakan berbagai metode seperti estimasi, forecasting, clustering, classification, dan association, data mining dapat meningkatkan efisiensi dan akurasi pengambilan keputusan di berbagai industri.
